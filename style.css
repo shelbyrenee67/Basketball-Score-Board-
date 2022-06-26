@@ -1,0 +1,50 @@
+body {
+    background-image: url("basketball.jpg");
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+}
+
+
+.buttons-left{
+    margin-left: 300px;
+}
+
+.buttons-right{
+    margin-left: 1030px;
+    margin-top: -10px;
+}
+
+button {
+    margin: 20px 0;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 8px;
+}
+
+#num1-el{
+    margin-left: 350px;
+    font-size: 40px;
+}
+
+#num2-el {
+    font-size: 40px;
+    width: 200px;
+    margin-left: 1075px;
+}
