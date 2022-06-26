@@ -5,24 +5,21 @@
     <body>
         <div class="container">
             <div>
-                <h3>HOME</h3>
+                <h3 class="team">HOME</h3>
+                <h2 id="home-score"></h2>
+                <button class="add1-btn" onclick="plusOne()">+1</button>
+                <button class="add2-btn" onclick="plusTwo()">+2</button>
+                <button class="add3-btn" onclick="plusThree()">+3</button>
             </div>
             <div>
-                <h3>GUEST</h3>
-            </div>
+                <h3 class="team">GUEST</h3>
+                <h2 id="guest-score"></h2>
+                <button class="add1-btn" onclick="plus1()">+1</button>
+                <button class="add2-btn" onclick="plus2()">+2</button>
+                <button class="add3-btn" onclick="plus3()">+3</button>
+            </div>  
         </div>
-        <span id="num1-el"></span>
-        <div class="buttons-left">
-            <button onclick="plusOne()">+1</button>
-            <button onclick="plusTwo()">+2</button>
-            <button onclick="plusThree()">+3</button>
-        </div>
-        <span id="num2-el"></span>
-        <div class="buttons-right">
-            <button onclick="plus1()">+1</button>
-            <button onclick="plus2()">+2</button>
-            <button onclick="plus3()">+3</button>
-        </div>
+        <button id="newgame-btn" onclick="newGame()">New Gane</button>
         <script src="index.js"></script>
     </body>
 </html>

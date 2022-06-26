@@ -1,39 +1,46 @@
 
-let num1 = document.getElementById("num1-el")
-let num2 = document.getElementById("num2-el")
+let home = 0
+let guest = 0
 
-let score = 0
+
 
 function plusOne() {
-    score += 1
-    num1.textContent = score 
+    home += 1
+    document.getElementById("home-score").textContent = home
 
 }
 
 function plusTwo() {
-    score += 2
-    num1.textContent = score 
+    home += 2
+    document.getElementById("home-score").textContent = home
 }
 
 function plusThree () {
-    score += 3
-    num1.textContent = score 
+    home += 3
+    document.getElementById("home-score").textContent = home 
 }
 
 function plus1() {
-    score += 1
-    num2.textContent = score 
+    guest += 1
+    document.getElementById("guest-score").textContent = guest 
 
 }
 
 function plus2() {
-    score += 2
-    num2.textContent = score 
+    guest += 2
+    document.getElementById("guest-score").textContent = guest 
 
 }
 
 function plus3() {
-    score += 3
-    num2.textContent = score 
+    guest += 3
+    document.getElementById("guest-score").textContent = guest 
 
+}
+
+function newGame() {
+    home = 0
+    guest = 0
+    document.getElementById("guest-score").textContent = guest
+    document.getElementById("home-score").textContent = home
 }
